@@ -1,0 +1,48 @@
+ul {
+  list-style: none;
+}
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.feedback-btns {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.feedback-btn {
+  border: 1px grey solid;
+  font-size: 20px;
+  padding: 15px;
+  width: 100px;
+  background-color: bisque;
+}
+
+.feedback-btns > li:first-child > .feedback-btn {
+  background-color: lightgreen;
+}
+
+.feedback-btns > li:nth-child(2) > .feedback-btn {
+  background-color: lightblue;
+}
+
+.feedback-btns > li:last-child > .feedback-btn {
+  background-color: lightcoral;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.stats li {
+  font-size: 25px;
+}
